@@ -14,7 +14,7 @@
         padding: 0 15px;
     }
 
-    .footer__icon i {
+    .footer__icon a {
         display: block;
     }
 }
@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width: 620px) {
+    .header__text-p {
+        margin-bottom: 165px;
+    }
+
     .services__info {
         display: block;
         text-align: center;
@@ -101,10 +105,22 @@
     .navbar__menu {
         display: block;
     }
+
     .navbar__menu-logo {
         margin: 0 auto 10px;
     }
+
     .navbar__menu-list {
         justify-content: center;
+    }
+
+    .get-in-touch__subtitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar__menu-list {
+        flex-wrap: wrap;
     }
 }

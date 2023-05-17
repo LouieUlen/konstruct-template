@@ -428,12 +428,13 @@ body {
   margin-bottom: 10px;
 }
 
-.footer__icon i {
+.footer__icon a {
   margin-right: 25px;
   padding-top: 28px;
+  color: #fff;
 }
 
-.footer__icon i:last-child {
+.footer__icon a:last-child {
   margin-right: 0;
 }
 
